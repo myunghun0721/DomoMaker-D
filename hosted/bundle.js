@@ -1,7 +1,7 @@
 "use strict";
 
 var handleDomo = function handleDomo(e) {
-  e.preventDefault();
+  e.preventDefault(0);
   $("#domoMessage").animate({
     width: 'hide'
   }, 350);
@@ -11,7 +11,7 @@ var handleDomo = function handleDomo(e) {
     return false;
   }
 
-  sendAjax('POST', $("#domoForm").attr("action"), $("domoForm").serialize(), function () {
+  sendAjax('POST', $("#domoForm").attr("action"), $("#domoForm").serialize(), function () {
     loadDomosFromServer();
   });
   return false;

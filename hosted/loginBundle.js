@@ -53,7 +53,7 @@ var LoginWindow = function LoginWindow(props) {
     placeholder: "username"
   }), /*#__PURE__*/React.createElement("label", {
     htmlFor: "pass"
-  }, "Password: "), /*#__PURE__*/React.createElement("input", {
+  }, "Password:"), /*#__PURE__*/React.createElement("input", {
     id: "pass",
     type: "password",
     name: "pass",
@@ -65,7 +65,7 @@ var LoginWindow = function LoginWindow(props) {
   }), /*#__PURE__*/React.createElement("input", {
     className: "formSubmit",
     type: "submit",
-    value: "Sign In"
+    value: "Sign Up"
   }));
 };
 
@@ -86,14 +86,14 @@ var SignupWindow = function SignupWindow(props) {
     placeholder: "username"
   }), /*#__PURE__*/React.createElement("label", {
     htmlFor: "pass"
-  }, "Password: "), /*#__PURE__*/React.createElement("input", {
+  }, "Password:"), /*#__PURE__*/React.createElement("input", {
     id: "pass",
     type: "password",
     name: "pass",
     placeholder: "password"
   }), /*#__PURE__*/React.createElement("label", {
     htmlFor: "pass2"
-  }, "Password: "), /*#__PURE__*/React.createElement("input", {
+  }, "Password:"), /*#__PURE__*/React.createElement("input", {
     id: "pass2",
     type: "password",
     name: "pass2",
